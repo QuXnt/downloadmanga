@@ -7,7 +7,7 @@ Instructions-
 2. Create folders named 'trashimg' and 'manga' under c:/
 3. Open terminal where requirements.txt is located and input the command
     
-pip install -r requirements.txt
+        pip install -r requirements.txt
 
 4. Open terminal where downloadmanga.py is present and input one of the following-
 
