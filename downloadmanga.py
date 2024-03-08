@@ -134,6 +134,7 @@ def deleteimg():
     for c in os.listdir(p):
         if c.endswith(".jpg"):
             os.remove(Path(f"{p}/{c}"))
+            send2trash(Path(f"{p}/{c}"))
 
 qry = getquery(passarg)
 templist = getmangaurl(query= qry)
